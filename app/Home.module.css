@@ -1,0 +1,79 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Estilo do Header */
+.header {
+  padding: 40px 4%;
+}
+
+.header > .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header nav ul li {
+  display: block;
+  padding: 0 40px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.menu-desktop ul {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os itens */
+  list-style: none;
+}
+
+.menu-desktop a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-contato {
+  margin-top: auto; /* Empurra o botão para o final da tela */
+  text-align: center;
+}
+
+.btn-contato a {
+  background-color: #8257e6;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
