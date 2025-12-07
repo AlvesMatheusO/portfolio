@@ -13,25 +13,27 @@ export default function Home() {
             </a>
           </div>
 
-          <nav className="menu-desktop">
-            <ul>
-              <li>
-                <a href="#">Início</a>
-              </li>
-              <li>
-                <a href="#">Especialidades</a>
-              </li>
-              <li>
-                <a href="#">Projetos</a>
-              </li>
-              <li>
-                <a href="#">Sobre</a>
-              </li>
-            </ul>
-          </nav>
+          <div className={styles.menuWrapper}>
+            <nav className="menu-desktop">
+              <ul>
+                <li>
+                  <a href="#">Início</a>
+                </li>
+                <li>
+                  <a href="#">Especialidades</a>
+                </li>
+                <li>
+                  <a href="#">Projetos</a>
+                </li>
+                <li>
+                  <a href="#">Sobre</a>
+                </li>
+              </ul>
+            </nav>
 
-          <div className="btn-contato">
-            <a href="#">Contato</a>
+            <div className={styles.btnContato}>
+              <a href="#">Contato</a>
+            </div>
           </div>
         </div>
       </header>
