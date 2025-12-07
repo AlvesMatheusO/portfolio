@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import Image from "next/image";
 import logo from "../assets/logoExample.png";
+import hero from "../assets/hero.png";
 
 export default function Home() {
   return (
@@ -37,6 +38,33 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <section className={styles.hero}>
+        <div className={styles.heroWrapper}>
+          <div className={styles.imgHero}>
+            <Image
+              src={hero}
+              alt="Imagem profissional"
+              width={550}
+              height={550}
+            />
+          </div>
+
+          <div className={styles.textHero}>
+            <h1>
+              Olá, eu sou <span>Matheus!</span>
+            </h1>
+            <p>
+              Desenvolvedor apaixonado por criar experiências digitais
+              incríveis.
+            </p>
+
+            <a href="#" className={styles.btnContato}>
+              <button>Vamos conversar!</button>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
